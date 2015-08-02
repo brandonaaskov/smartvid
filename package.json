@@ -1,0 +1,23 @@
+{
+  "name": "angular-seed",
+  "scripts": {
+    "test": "npm test"
+  },
+  "devDependencies": {
+    "connect": "~2.14.4",
+    "gulp": "^3.8.10",
+    "gulp-angular-templatecache": "^1.4.2",
+    "gulp-babel": "^5.2.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-concat-css": "~0.1.4",
+    "gulp-less": "~1.2.3",
+    "gulp-ngmin": "~0.2.0",
+    "gulp-plumber": "~0.6.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "~0.2.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}

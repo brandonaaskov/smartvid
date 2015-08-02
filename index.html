@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>angular-seed</title>
+
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- utilities -->
+  <script src="vendor/lodash/lodash.js"></script>
+
+  <!-- angular -->
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-route/angular-route.js"></script>
+  <script src="vendor/angular-cookies/angular-cookies.js"></script>
+
+  <!-- ui/ux framework -->
+  <link rel="stylesheet" href="vendor/pure/pure-min.css">
+
+  <!-- application -->
+  <link rel="stylesheet" href="build/angular-seed.css"> <!-- styles build file -->
+  <script src="build/templates.js"></script> <!-- views compiled into $templateCache -->
+  <script src="build/angular-seed.js"></script> <!-- application build file -->
+</head>
+<body ng-app="angular-seed" ng-cloak>
+  <navigation></navigation>
+
+  <div ng-view layout="column" class="page"></div>
+</body>
+</html>
