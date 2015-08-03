@@ -20,7 +20,7 @@ var http = require('http'),
 var paths = {
   scripts: ['src/**/*.js'],
   tests: ['tests/**/*.js'],
-  styles: ['styles/**/*.less'],
+  styles: ['styles/globals.less'],
   views: [
     'views/**/*.html',
     'src/templates/**/*.html'

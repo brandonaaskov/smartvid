@@ -15,6 +15,9 @@
   <script src="vendor/angular/angular.js"></script>
   <script src="vendor/angular-route/angular-route.js"></script>
   <script src="vendor/angular-cookies/angular-cookies.js"></script>
+  <script src="vendor/angular-sanitize/angular-sanitize.js"></script>
+  <script src="vendor/i18next/i18next.js"></script>
+  <script src="vendor/ng-i18next/dist/ng-i18next.js"></script>
 
   <!-- ui/ux framework -->
   <link rel="stylesheet" href="vendor/pure/pure-min.css">
@@ -25,8 +28,6 @@
   <script src="build/smartvid.js"></script> <!-- application build file -->
 </head>
 <body ng-app="smartvid" ng-cloak>
-  <navigation></navigation>
-
   <div ng-view layout="column" class="page"></div>
 </body>
 </html>
