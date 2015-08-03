@@ -1,4 +1,4 @@
-# angular-seed
+# smartvid
 
 ## Getting Up and Running
 
