@@ -1,4 +1,4 @@
-angular.module('angular-seed').filter('range', function () {
+angular.module('smartvid').filter('range', function () {
   return (input, total) => {
     total = parseInt(total)
 

@@ -1,4 +1,4 @@
-angular.module('angular-seed').service('config', function ($window) {
+angular.module('smartvid').service('config', function ($window) {
   return {
     env: 'development',
     filepicker: 'AQPk06MnRzuRnlvIDdgw4z',

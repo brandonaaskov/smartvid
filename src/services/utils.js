@@ -1,4 +1,4 @@
-angular.module('angular-seed').service('utils', function () {
+angular.module('smartvid').service('utils', function () {
   let isTrueObject = (obj) => {
     if (_.isUndefined(obj)) {
       return false

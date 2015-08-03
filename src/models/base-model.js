@@ -1,4 +1,4 @@
-angular.module('angular-seed').factory('BaseModel', function (utils) {
+angular.module('smartvid').factory('BaseModel', function (utils) {
   let BaseModel = (function () {
 
     function BaseModel (attrs) {

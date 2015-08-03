@@ -1,4 +1,4 @@
-angular.module('angular-seed', [
+angular.module('smartvid', [
   'ngRoute',
   'ngCookies',
   'templates'

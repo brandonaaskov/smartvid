@@ -1,5 +1,5 @@
 
-angular.module('angular-seed').directive('contenteditable', function() {
+angular.module('smartvid').directive('contenteditable', function() {
   return {
     restrict: 'A',
     require: "ngModel",

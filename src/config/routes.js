@@ -1,4 +1,4 @@
-angular.module('angular-seed').config(function($routeProvider, $locationProvider) {
+angular.module('smartvid').config(function($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'home.html'

@@ -1,4 +1,4 @@
-angular.module('angular-seed').factory('BaseCollection', function (BaseModel) {
+angular.module('smartvid').factory('BaseCollection', function (BaseModel) {
 
   let BaseCollection = ( () => {
     BaseCollection.prototype.model = BaseModel

@@ -1,4 +1,4 @@
-angular.module('angular-seed').directive('navigation', function ($location) {
+angular.module('smartvid').directive('navigation', function ($location) {
   return  {
     restrict: 'E',
     replace: true,
