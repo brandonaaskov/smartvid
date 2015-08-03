@@ -20,7 +20,8 @@ var http = require('http'),
 var paths = {
   scripts: ['src/**/*.js'],
   tests: ['tests/**/*.js'],
-  styles: ['styles/globals.less'],
+  styles: ['styles/index.less'],
+  stylesToWatch: ['styles/**/*.less'],
   views: [
     'views/**/*.html',
     'src/templates/**/*.html'
@@ -79,7 +80,7 @@ gulp.task('compileViews', function () {
 gulp.task('watch', function () {
   gulp.watch(paths.scripts, ['compileScripts'])
   gulp.watch(paths.tests, ['compileScripts'])
-  gulp.watch(paths.styles, ['compileLess'])
+  gulp.watch(paths.stylesToWatch, ['compileLess'])
   gulp.watch(paths.views, ['compileViews'])
 })
 
