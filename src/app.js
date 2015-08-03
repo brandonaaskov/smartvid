@@ -18,15 +18,4 @@ angular.module('smartvid', [
       name: "Acme Construction"
     }
   };
-})
-
-angular.module('smartvid').config(['$i18nextProvider', function($i18nextProvider) {
-  $i18nextProvider.options = {
-      lng: 'en',
-      useCookie: false,
-      useLocalStorage: false,
-      fallbackLng: 'dev',
-      resGetPath: './assets/locales/__lng__.json',
-      defaultLoadingValue: '' // ng-i18next option, *NOT* directly supported by i18next
-  };
-}]);
+});
